@@ -4,9 +4,9 @@
   <div align="center">
     <img src="components/ui/PearHeroLogo.svg" alt="PearAI Logo" />
   </div>
-  <h3 align="center">PearAI Landing Page</h3>
+  <h3 align="center">STARSOF THELID Landing Page</h3>
   <p align="center">
-    The Open Source AI-powered code editor
+    AR shit
     <br />
     <a href="https://trypear.ai"><strong>Explore the Website »</strong></a>
     <br />
@@ -62,7 +62,7 @@ To get a local copy up and running follow these simple steps.
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/trypear/pear-landing-page.git
+    git clone https://github.com/STARSOF-THELID/starsof-landing-page.git
     ```
 2.  Install NPM packages
     ```sh
@@ -113,40 +113,9 @@ To run the project locally:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be, learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request.
-
-1. Fork the repo
-   ```sh
-   git clone https://github.com/trypear/pear-landing-page.git
-   ```
-2. Clone the repo
-   ```sh
-   git clone https://github.com/<USERNAME>/pear-landing-page.git
-   ```
-3. Navigate to the project directory
-   ```sh
-   cd pear-landing-page
-   ```
-4. Create a new branch
-   ```sh
-   git checkout -b my-new-branch
-   ```
-5. Install dependencies
-   ```sh
-   yarn install
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Contact
 
-- Nang - [@youtube/nang88](https://youtube.com/nang88)
-- Pan - [@youtube/FryingPan](https://youtube.com/FryingPan)
-- [Discord Link](https://discord.com/invite/7QMraJUsQt)
+- inquiry - [contact](https://www.google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
