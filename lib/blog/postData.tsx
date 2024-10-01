@@ -4,7 +4,7 @@ export const posts = [
     author: "Nang",
     date: "2024-09-1",
     excerpt:
-      "I spent the last 2 months working on PearAI, an Open-Sourced AI-Powered Code Editor. It is like having an expert on your codebase right next to you. We achieve this with Retrieval Augmented Generation. This is my new startup after finishing my B.S. & M.S from Carnegie Mellon and working for 1.5 years in High Frequency Trading as a Software Engineer. This is exactly how we designed our server.",
+      "I spent the last 4 months working on PearAI, an Open-Sourced AI-Powered Code Editor. It is like having an expert on your codebase right next to you. We achieve this with Retrieval Augmented Generation. This is my new startup after finishing my B.S. & M.S from Carnegie Mellon and working for 1.5 years in High Frequency Trading as a Software Engineer. This is exactly how we designed our server.",
     thumbnail: "/images/blog/pearai-server-option.png",
     tags: ["server", "server design", "pearai server"],
     url: "/blog/how-we-designed-our-servers-end-to-end-for-pearai",
