@@ -33,7 +33,7 @@ import { Info } from "lucide-react";
 import Spinner from "./ui/spinner";
 import Link from "next/link";
 
-import AnimatedNumbers from 'react-animated-numbers';
+import AnimatedNumbers from "react-animated-numbers";
 
 interface ExtendedPricingTierProps extends PricingTierProps {
   disabled?: boolean;
@@ -175,8 +175,6 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
     <Card
       className={`flex h-full w-full flex-col ${index === 1 && "from-primary-600/5 ring-primary-900/40 dark:from-primary-600/5 dark:ring-primary-600/20"}`}
     >
-        
-
       <div className="flex h-full w-full flex-col">
         <CardHeader className="flex-grow-0 px-6 py-6 pb-0">
           <CardTitle className="text-2xl leading-6 text-primary-700">
@@ -380,35 +378,30 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
   );
 };
 
-
-
 const PricingPage: React.FC<PricingPageProps> = ({ user }) => {
-
-  const [active, setActive] = React.useState(0)
-  const [period, setPeriod] = React.useState(0)
+  const [active, setActive] = React.useState(0);
+  const [period, setPeriod] = React.useState(0);
   const handleChangePlan = (index: number) => {
-    setActive(index)
-  }
+    setActive(index);
+  };
   const handleChangePeriod = (index: number) => {
-    setPeriod(index)
+    setPeriod(index);
     if (index === 0) {
-      setStarter(9.99)
-      setPro(19.99)
+      setStarter(9.99);
+      setPro(19.99);
     } else {
-      setStarter(7.49)
-      setPro(17.49)
+      setStarter(7.49);
+      setPro(17.49);
     }
-  }
-  const [starter, setStarter] = React.useState(9.99)
-  const [pro, setPro] = React.useState(19.99)
+  };
+  const [starter, setStarter] = React.useState(9.99);
+  const [pro, setPro] = React.useState(19.99);
 
   return (
     <section
       className="relative pt-8 sm:pt-12 md:pt-16 lg:pt-24"
       aria-labelledby="pricing-heading"
     >
-
-      
       <div className="absolute top-0 z-[-1] mt-[-35px] h-[140px] w-full bg-primary-800/30 blur-3xl"></div>
       <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-20">
         <div className="flex flex-col items-center space-y-6 sm:space-y-8 md:space-y-6 lg:space-y-6">

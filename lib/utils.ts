@@ -47,7 +47,7 @@ export const constructMetadata = ({
       {
         name: "xerk-dot",
         url: "https://github.com/xerk-dot",
-      }
+      },
     ],
     openGraph: {
       title,

@@ -87,5 +87,5 @@ const faqData: FAQItem[] = [
   {
     question: "0. Why is it called Starsof Thelid?",
     answer: <p>Starsof Thelid!</p>,
-  }
+  },
 ];

@@ -16,16 +16,14 @@ const videoData: VideoData[] = [
   {
     src: "https://www.youtube.com/embed/Rzk3GmXUySs?si=2Y25oMlhbQWZpu1K",
     title: "My Latest YouTube video",
-    description:
-      "Here is a link!",
+    description: "Here is a link!",
   },
 ];
 
 const AboutComponent: React.FC = () => {
   return (
     <section className={"mt-36"}>
-
-{/*       <div className="mt-10 flex flex-col items-center justify-center">
+      {/*       <div className="mt-10 flex flex-col items-center justify-center">
         <p className="text-xs text-gray-700">Current features include</p>
 
         <div className="m-4 mt-2 flex max-w-4xl flex-wrap items-center justify-center gap-4">
@@ -70,12 +68,8 @@ const AboutComponent: React.FC = () => {
         </h2>
 
         <div className="max-w-2xl text-gray-500">
-          <p className="mt-6 text-center">
-            Lorem Ipsum
-          </p>
-          <p className="mt-3 text-center">
-            Lorem Ipsum
-          </p>
+          <p className="mt-6 text-center">Lorem Ipsum</p>
+          <p className="mt-3 text-center">Lorem Ipsum</p>
         </div>
       </div>
     </section>

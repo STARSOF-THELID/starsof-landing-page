@@ -16,21 +16,13 @@ export default function Features() {
   const featureInfo = [
     {
       header: "Find people near you.",
-      description: (
-        <>
-
-        </>
-      ),
+      description: <></>,
       videoSource: "/webms/talktocodebase.webm",
     },
 
     {
       header: "No more tedious changes.",
-      description: (
-        <>
-
-        </>
-      ),
+      description: <></>,
       videoSource: "/webms/cmd+i-landingpage.webm",
     },
 
@@ -38,9 +30,7 @@ export default function Features() {
       header: "Common use case example",
       description: (
         <>
-          <p className="pb-6">
-
-          </p>
+          <p className="pb-6"></p>
         </>
       ),
       embedId: "v4NN_qadBS0",
