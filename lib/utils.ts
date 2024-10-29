@@ -13,9 +13,9 @@ type MetadataProps = {
 };
 
 const defaultMetadata = {
-  title: "PearAI - Open Source AI Code Editor for Fast Development",
+  title: "STARSOF",
   description:
-    "PearAI is an Open-source AI-powered code editor with features like AI chat, inline prompts, and debugging to accelerate your coding process.",
+    "STARSOF THELID offers map-based social networking for kink-lifestyle.",
 };
 
 export const normalizeDate = (dateString: string) => {
@@ -45,13 +45,9 @@ export const constructMetadata = ({
     },
     authors: [
       {
-        name: "Nang",
-        url: "https://github.com/nang-dev",
-      },
-      {
-        name: "Duke Pan",
-        url: "https://github.com/Fryingpannn",
-      },
+        name: "xerk-dot",
+        url: "https://github.com/xerk-dot",
+      }
     ],
     openGraph: {
       title,

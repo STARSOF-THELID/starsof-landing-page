@@ -23,9 +23,38 @@ const HeroTitle = ({ theme }: { theme: string }) => (
           className="mb-4 mr-2 inline-flex"
         />
       )}
-      <span className="text-primary-700">PearAI: </span>
-      The Open Source AI&#8209;Powered Code Editor
+      <span className="text-primary-700">STARSOF THELID</span>
+      
+      <br></br>
+      
+      A map-based hookup app 
+      <br></br>
+      
+      for BDSM
     </div>
+    <div
+        className={
+          "m-4 mt-0 flex flex-col items-center text-center lg:m-0 lg:justify-center"
+        }
+      >
+        <h1 className="text-4xl font-bold">
+          Kink-lifestyle future to{" "}
+          <span className="relative">
+            <span className="relative z-10 text-primary-600">end </span>
+            <span
+              className="absolute bottom-0 left-0 w-full"
+              style={{
+                height: "1.4375rem",
+                background: "rgba(200, 0, 0, 0.50)",
+              }}
+            ></span>
+          </span>
+           pornography.
+        </h1>
+{/*         <p className="mt-4 max-w-2xl text-center text-gray-500">
+          Lorem Ipsum.
+        </p> */}
+      </div>
 
     <div className="block items-start sm:hidden">
       <div>
@@ -81,7 +110,7 @@ const HeroButtons = () => {
         <Button asChild size="lg">
           <Link href="/pricing">Download For Free</Link>
         </Button>
-        <div
+{/*         <div
           className="mt-10 flex items-center"
           data-aos="fade-up"
           data-aos-delay="500"
@@ -96,7 +125,7 @@ const HeroButtons = () => {
           >
             <YCombinatorLogo className="h-14 w-auto" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

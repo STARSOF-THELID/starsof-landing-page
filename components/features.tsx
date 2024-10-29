@@ -15,20 +15,10 @@ type SingleFeatureProps = {
 export default function Features() {
   const featureInfo = [
     {
-      header: "Talk to your codebase directly.",
+      header: "Find people near you.",
       description: (
         <>
-          <p className="pb-6">
-            Ask questions or generate code with context of your{" "}
-            <b>
-              <code>@codebase</code>
-            </b>{" "}
-            for accurate results.
-          </p>
-          <p>
-            This also works with choosing specific folders, online docs,
-            terminal content, files, and more 😈.
-          </p>
+
         </>
       ),
       videoSource: "/webms/talktocodebase.webm",
@@ -38,24 +28,7 @@ export default function Features() {
       header: "No more tedious changes.",
       description: (
         <>
-          <p>
-            PearAI can directly code in your files, and allow you to see diffs.
-            Try{" "}
-            <b>
-              <code>CMD+I</code>
-            </b>
-            &nbsp;(<code>CTRL+I</code> on Windows).
-          </p>
-          <p className="pt-6">
-            Here, we ask PearAI to help us add error handling and comments 😏.
-          </p>
-          <p className="pt-6">
-            To see all of our features, check out our{" "}
-            <Link className="text-primary-600" href="/docs">
-              docs
-            </Link>
-            .
-          </p>
+
         </>
       ),
       videoSource: "/webms/cmd+i-landingpage.webm",
@@ -66,9 +39,7 @@ export default function Features() {
       description: (
         <>
           <p className="pb-6">
-            Without writing a single line of code, we were able to make a new
-            feature in an unfamiliar codebase: adding a documentation page to
-            the PearAI landing page.
+
           </p>
         </>
       ),
