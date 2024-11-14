@@ -13,7 +13,7 @@ const YoutubeEmbed: React.FC<YoutubeEmbedProps> = ({ embedId }) => (
       loading="lazy"
       src={`https://www.youtube.com/embed/${embedId}`}
       allowFullScreen
-      title="PearAI demo"
+      title="StarsOf AR demo"
     />
   </div>
 );

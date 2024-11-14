@@ -34,7 +34,7 @@ export default async function AuthButton() {
           </Link>
           <Link href="/signup">
             <Button variant="outline">
-              Try PearAI
+              Try StarsOf AR
               <SquareArrowRight className="mr-2 h-4 w-4" />
             </Button>
           </Link>

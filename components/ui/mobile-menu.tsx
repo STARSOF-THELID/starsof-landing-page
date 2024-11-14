@@ -76,7 +76,7 @@ export default function MobileMenu({
         >
           <div>
             <SheetHeader className="mb-4">
-              <SheetTitle className="text-center">PearAI Menu</SheetTitle>
+              <SheetTitle className="text-center">StarsOf AR Menu</SheetTitle>
             </SheetHeader>
             <nav aria-label="Mobile menu">
               <ul className="space-y-1">
@@ -135,7 +135,7 @@ export default function MobileMenu({
                           className="mt-4 w-full justify-start"
                         >
                           <SquareArrowRight className="mr-2 h-4 w-4" />
-                          Try PearAI
+                          Try StarsOf AR
                         </Button>
                       </Link>
                     </>

@@ -4,7 +4,7 @@ import { withAuth } from "@/utils/withAuth";
 import { User } from "@supabase/supabase-js";
 import { NextResponse, NextRequest } from "next/server";
 
-const PEARAI_SERVER_URL = process.env.PEARAI_SERVER_URL;
+const STARSOF_SERVER_URL = process.env.STARSOF_SERVER_URL;
 
 async function cancelSubscription(request: NextRequest & { user: User }) {
   const supabase = createClient();
@@ -23,7 +23,7 @@ async function cancelSubscription(request: NextRequest & { user: User }) {
     }
 
     const token = session.access_token;
-    const url = `${PEARAI_SERVER_URL}/payment${TEST_MODE_ENABLED ? "/test" : ""}/cancel-subscription`;
+    const url = `${STARSOF_SERVER_URL}/payment${TEST_MODE_ENABLED ? "/test" : ""}/cancel-subscription`;
 
     const response = await fetch(url, {
       method: "POST",

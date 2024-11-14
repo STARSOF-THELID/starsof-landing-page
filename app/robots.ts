@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "",
     },
-    sitemap: "https://trypear.ai/sitemap.xml",
+    sitemap: "https://starsof-landing-page.vercel.app/sitemap.xml",
   };
 }

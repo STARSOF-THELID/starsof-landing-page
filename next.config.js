@@ -20,7 +20,7 @@ const nextConfiguration = {
     return config;
   },
   async redirects() {
-    // remove this redirect in next pearapp release
+    // remove this redirect in next starsof release
     return [
       {
         source: "/features/tab-autocomplete",

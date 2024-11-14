@@ -1,6 +1,6 @@
 import { ReactNode, forwardRef, ComponentPropsWithoutRef } from "react";
 import Link from "next/link";
-import PearGreenLogo from "./PearGreen.svg";
+// import StarGreenLogo from "./PearGreen.svg";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -101,10 +101,10 @@ export default async function Header() {
                 <Link
                   href="/"
                   className="flex flex-shrink-0 items-center"
-                  aria-label="PearAI Home"
+                  aria-label="StarsOf Home"
                 >
-                  <PearGreenLogo />
-                  <div className="h4 ml-2">PearAI</div>
+                  {/* <StarGreenLogo /> */}
+                  <div className="h4 ml-2">StarsOf</div>
                 </Link>
                 <nav className="ml-10 hidden md:block" aria-label="Main menu">
                   <NavigationMenu>
@@ -112,24 +112,24 @@ export default async function Header() {
                       <DropdownNavItem trigger="Resources">
                         <ul className="grid w-[400px] gap-3 bg-background p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                           <ListItem href="/about" title="About">
-                            Learn more about PearAI
+                            Learn more about StarsOf
                           </ListItem>
                           <ListItem href="/blog" title="Blog">
-                            Read insights on PearAI&apos;s development by our
+                            Read insights on StarsOf&apos;s development by our
                             contributors
                           </ListItem>
                           <ListItem href="/faq" title="FAQ">
-                            Frequently asked questions about PearAI
+                            Frequently asked questions about StarsOf
                           </ListItem>
                           <ListItem href="/changelog" title="Changelog">
-                            See what&apos;s new in PearAI
+                            See what&apos;s new in StarsOf
                           </ListItem>
                         </ul>
                       </DropdownNavItem>
                       <NavItem href="/pricing">Pricing / Download</NavItem>
                       <NavItem href="/docs">Documentation</NavItem>
                       <NavItem
-                        href="https://github.com/trypear/pearai-app"
+                        href="https://github.com/STARSOF-THELID/starsof-landing-page"
                         target="_blank"
                       >
                         GitHub ⭐️

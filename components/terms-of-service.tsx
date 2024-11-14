@@ -24,27 +24,27 @@ export default function TermsOfServiceComponent() {
               </div>
 
               <p>
-                Welcome, and thank you for your interest in PearAI, Inc.
-                (PearAI,” “we,” or “us”) and our website at&nbsp;
+                Welcome, and thank you for your interest in starsofarAI, Inc.
+                (starsofarAI,” “we,” or “us”) and our website at&nbsp;
                 <Link
-                  href="http://www.trypear.ai"
+                  href="http://www.trystarsofar.ai"
                   className="font-medium text-gray-900 underline"
                 >
-                  www.trypear.ai
+                  www.trystarsofar.ai
                 </Link>
                 , along with the Software (as defined below), our related
                 websites, hosted applications or other downloadable
                 applications, and other services provided by us (collectively,
-                the “Service”). These Terms and Conditions, including PearAI’s
+                the “Service”). These Terms and Conditions, including starsofarAI’s
                 Privacy Policy (available at:&nbsp;
                 <Link
-                  href="https://trypear.ai/privacy"
+                  href="https://trystarsofar.ai/privacy"
                   className="font-medium text-gray-900 underline"
                 >
-                  https://trypear.ai/privacy
+                  https://trystarsofar.ai/privacy
                 </Link>
                 ), (together, these “Terms”) are a legally binding contract
-                between you and PearAI regarding your use of the Service.
+                between you and starsofarAI regarding your use of the Service.
               </p>
 
               <p>
@@ -63,15 +63,15 @@ export default function TermsOfServiceComponent() {
                 CONDITION TO YOUR USE OF THE SERVICE, YOU AGREE TO BE BOUND BY,
                 THESE TERMS. IF YOU ARE NOT ELIGIBLE, OR DO NOT AGREE TO THE
                 TERMS, THEN YOU DO NOT HAVE OUR PERMISSION TO USE THE SERVICE.
-                YOUR USE OF THE SERVICE, AND PEARAI’S PROVISION OF THE SERVICE
-                TO YOU, CONSTITUTES AN AGREEMENT BY PEARAI AND BY YOU TO BE
+                YOUR USE OF THE SERVICE, AND starsofarAI’S PROVISION OF THE SERVICE
+                TO YOU, CONSTITUTES AN AGREEMENT BY starsofarAI AND BY YOU TO BE
                 BOUND BY THESE TERMS.
               </p>
 
               <p>
                 If you are using the Service in the course of your work for an
                 entity or organization that has a master subscription agreement
-                with PearAI in effect, then such master subscription agreement
+                with starsofarAI in effect, then such master subscription agreement
                 controls in the event of a conflict with these Terms.
               </p>
 
@@ -82,7 +82,7 @@ export default function TermsOfServiceComponent() {
                 . Except for certain kinds of disputes described in Section 15,
                 you agree that disputes arising under these Terms will be
                 resolved by binding, individual arbitration, and BY ACCEPTING
-                THESE TERMS, YOU AND PEARAI ARE EACH WAIVING THE RIGHT TO A
+                THESE TERMS, YOU AND starsofarAI ARE EACH WAIVING THE RIGHT TO A
                 TRIAL BY JURY OR TO PARTICIPATE IN ANY CLASS ACTION OR
                 REPRESENTATIVE PROCEEDING.
               </p>
@@ -90,9 +90,9 @@ export default function TermsOfServiceComponent() {
               <ol className="list-decimal space-y-4 pl-8">
                 <li>
                   <strong className="text-gray-900">
-                    PearAI Service Overview
+                    starsofarAI Service Overview
                   </strong>
-                  . Our PearAI platform offers a suite of coding tools driven by
+                  . Our starsofarAI platform offers a suite of coding tools driven by
                   machine learning to help developers write code more easily and
                   efficiently and can provide suggested code, outputs or other
                   functions.
@@ -154,24 +154,24 @@ export default function TermsOfServiceComponent() {
                   <ol className="list-decimal space-y-4 pl-8">
                     <li>
                       <p>
-                        <strong className="text-gray-900">Price</strong>. PearAI
+                        <strong className="text-gray-900">Price</strong>. starsofarAI
                         reserves the right to determine pricing for the Service.
-                        PearAI will make reasonable efforts to keep pricing
+                        starsofarAI will make reasonable efforts to keep pricing
                         information published on the Service up to date. We
                         encourage you to check our pricing page periodically for
-                        current pricing information. PearAI may change the fees
+                        current pricing information. starsofarAI may change the fees
                         for any feature of the Service, including additional
-                        fees or charges, if PearAI gives you advance notice of
+                        fees or charges, if starsofarAI gives you advance notice of
                         changes before they apply through the Service user
                         interface, a pop-up notice, email, or through other
                         reasonable means. Your continued use of the Service
                         after the price change becomes effective constitutes
                         your agreement to pay the changed amount. You will be
                         responsible for all taxes associated with the Service,
-                        other than taxes based on PearAI’s net income. PearAI,
+                        other than taxes based on starsofarAI’s net income. starsofarAI,
                         at its sole discretion, may make promotional offers with
                         different features and different pricing to any of
-                        PearAI’s customers. These promotional offers, unless
+                        starsofarAI’s customers. These promotional offers, unless
                         made to you, will not apply to your offer or these
                         Terms.
                       </p>
@@ -182,8 +182,8 @@ export default function TermsOfServiceComponent() {
                         <strong className="text-gray-900">
                           Payment Processing
                         </strong>
-                        . Notwithstanding any amounts owed to PearAI hereunder,
-                        PEARAI DOES NOT DIRECTLY PROCESS PAYMENT FOR ANY
+                        . Notwithstanding any amounts owed to starsofarAI hereunder,
+                        starsofarAI DOES NOT DIRECTLY PROCESS PAYMENT FOR ANY
                         SERVICES. To facilitate payment for the Service via bank
                         account, credit card, or debit card, we use Stripe, Inc.
                         and its affiliates (“
@@ -216,7 +216,7 @@ export default function TermsOfServiceComponent() {
                         store and continue billing your specified payment method
                         even after such payment method has expired, to avoid
                         interruptions in payment for your use of the Service.
-                        Please contact Stripe for more information. PearAI
+                        Please contact Stripe for more information. starsofarAI
                         assumes no liability or responsibility for any payments
                         you make through the Service.
                       </p>
@@ -254,7 +254,7 @@ export default function TermsOfServiceComponent() {
                         </strong>
                         ”) unless you cancel the Subscription Service or we
                         terminate it. If you activate a Subscription Service,
-                        then you authorize PearAI or its third-party payment
+                        then you authorize starsofarAI or its third-party payment
                         processors to periodically charge, on a going-forward
                         basis and until cancellation of the Subscription
                         Service, all accrued sums on or before the payment due
@@ -269,7 +269,7 @@ export default function TermsOfServiceComponent() {
                         Subscription Period. You must cancel your Subscription
                         Service before it renews in order to avoid billing of
                         the next periodic Subscription Fee to your account.
-                        PearAI or its third-party payment processor will bill
+                        starsofarAI or its third-party payment processor will bill
                         the periodic Subscription Fee to the payment method
                         associated with your account or that you otherwise
                         provide to us. You may cancel the Subscription Service
@@ -292,7 +292,7 @@ export default function TermsOfServiceComponent() {
                         <strong className="text-gray-900">
                           Delinquent Accounts
                         </strong>
-                        . PearAI may suspend or terminate access to the Service,
+                        . starsofarAI may suspend or terminate access to the Service,
                         including fee-based portions of the Service, for any
                         account for which any amount is due but unpaid. In
                         addition to the amount due for the Service, a delinquent
@@ -300,7 +300,7 @@ export default function TermsOfServiceComponent() {
                         incidental to any chargeback or collection of any unpaid
                         amount, including collection fees. If your payment
                         method is no longer valid at the time a renewal
-                        Subscription Fee is due, then PearAI reserves the right
+                        Subscription Fee is due, then starsofarAI reserves the right
                         to delete your account and any information associated
                         with your account without any liability to you.
                       </p>
@@ -324,10 +324,10 @@ export default function TermsOfServiceComponent() {
                         ”) that you submit, upload, or otherwise post to or
                         transmit (such actions, collectively, “Upload”) to the
                         Service are only used to provide Suggestions to you
-                        unless you opt-in to allow PearAI to use such Customer
+                        unless you opt-in to allow starsofarAI to use such Customer
                         Data to improve and enhance the Service and for other
                         development, diagnostic and corrective purposes in
-                        connection with the Service and other PearAI offerings.
+                        connection with the Service and other starsofarAI offerings.
                         Customer Data is transmitted only to generate
                         Suggestions in real-time and are deleted once
                         Suggestions are generated. Customer Data is not used for
@@ -340,15 +340,15 @@ export default function TermsOfServiceComponent() {
                     <li>
                       <p>
                         <strong className="text-gray-900">Usage Data</strong>.
-                        PearAI may collect, generate, and derive performance,
+                        starsofarAI may collect, generate, and derive performance,
                         analytical, or usage data relating to your access to or
                         use of the Service (“
                         <strong className="text-gray-900">Usage Data</strong>
                         ”). Usage Data will not include any Customer Data.
-                        PearAI will only use Usage Data to provide the Service
+                        starsofarAI will only use Usage Data to provide the Service
                         to you, to monitor the performance and stability of the
                         Service, and to prevent or address technical issues with
-                        the Service. PearAI may also anonymize Usage Data,
+                        the Service. starsofarAI may also anonymize Usage Data,
                         aggregate it with other data, and use that aggregated,
                         anonymized data to improve its products and services.
                       </p>
@@ -397,10 +397,10 @@ export default function TermsOfServiceComponent() {
                     date at the top of these Terms and by maintaining a current
                     version of these Terms at{" "}
                     <Link
-                      href="https://trypear.ai/terms-of-service"
+                      href="https://trystarsofar.ai/terms-of-service"
                       className="font-medium text-gray-900 underline"
                     >
-                      https://trypear.ai/terms-of-service
+                      https://trystarsofar.ai/terms-of-service
                     </Link>
                     . All modifications will be effective when they are posted,
                     and your continued accessing or use of the Service will
@@ -427,7 +427,7 @@ export default function TermsOfServiceComponent() {
                         termination by either party in accordance with these
                         Terms, including when terminated as described in Section
                         11.2, or (ii) when no Order Form remains in effect, if
-                        you and PearAI had previously executed an Order Form.
+                        you and starsofarAI had previously executed an Order Form.
                       </p>
                     </li>
 
@@ -436,7 +436,7 @@ export default function TermsOfServiceComponent() {
                         <strong className="text-gray-900">Termination</strong>.
                         If you violate any provision of these Terms, then your
                         authorization to access the Service and these Terms
-                        automatically terminate. In addition, PearAI may, at its
+                        automatically terminate. In addition, starsofarAI may, at its
                         sole discretion, terminate these Terms or your account
                         on the Service, or suspend or terminate your access to
                         the Service, at any time for any reason or no reason,
@@ -462,12 +462,12 @@ export default function TermsOfServiceComponent() {
                         rights will terminate and you must immediately cease all
                         use of the Service; (b) you will no longer be authorized
                         to access your account or the Service; (c) you must pay
-                        PearAI any unpaid amount that was due prior to
+                        starsofarAI any unpaid amount that was due prior to
                         termination; and (d) all payment obligations accrued
                         prior to termination and Sections 5.3 (Feedback), 6
                         (Ownership; Proprietary Rights), 11.3 (Effect of
                         Termination), 12 (Indemnity), 13 (Disclaimers; No
-                        Warranties by PearAI), 14 (Limitation of Liability), 15
+                        Warranties by starsofarAI), 14 (Limitation of Liability), 15
                         (Dispute Resolution and Arbitration), and 16
                         (Miscellaneous) will survive. You are solely responsible
                         for retaining copies of any content you upload to the
@@ -486,11 +486,11 @@ export default function TermsOfServiceComponent() {
                         <strong className="text-gray-900">
                           Modification of the Service
                         </strong>
-                        . PearAI reserves the right to modify or discontinue all
+                        . starsofarAI reserves the right to modify or discontinue all
                         or any portion of the Service at any time (including by
                         limiting or discontinuing certain features of the
                         Service), temporarily or permanently, without notice to
-                        you. PearAI will have no liability for any change to the
+                        you. starsofarAI will have no liability for any change to the
                         Service, including any paid-for functionalities of the
                         Service, or any suspension or termination of your access
                         to or use of the Service. You should retain copies of
@@ -508,10 +508,10 @@ export default function TermsOfServiceComponent() {
                     <strong className="text-gray-900">Indemnity</strong>. To the
                     fullest extent permitted by law, you are responsible for
                     your use of the Service, and you will defend and indemnify
-                    PearAI, its affiliates and their respective shareholders,
+                    starsofarAI, its affiliates and their respective shareholders,
                     directors, managers, members, officers, employees,
                     consultants, and agents (together, the “
-                    <strong className="text-gray-900">PearAI Entities</strong>
+                    <strong className="text-gray-900">starsofarAI Entities</strong>
                     ”) from and against every claim brought by a third party,
                     and any related liability, damage, loss, and expense,
                     including attorneys’ fees and costs, arising out of or
@@ -534,7 +534,7 @@ export default function TermsOfServiceComponent() {
                 <li className="space-y-4">
                   <p>
                     <strong className="text-gray-700">
-                      Disclaimers; No Warranties by PearAI
+                      Disclaimers; No Warranties by starsofarAI
                     </strong>
                   </p>
 
@@ -543,19 +543,19 @@ export default function TermsOfServiceComponent() {
                       <p>
                         THE SERVICE AND ALL MATERIALS AND CONTENT AVAILABLE
                         THROUGH THE SERVICE, INCLUDING SUGGESTIONS, ARE PROVIDED
-                        “AS IS” AND ON AN “AS AVAILABLE” BASIS. PEARAI DISCLAIMS
+                        “AS IS” AND ON AN “AS AVAILABLE” BASIS. starsofarAI DISCLAIMS
                         ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED,
                         RELATING TO THE SERVICE AND ALL MATERIALS AND CONTENT
                         AVAILABLE THROUGH THE SERVICE, INCLUDING: (a) ANY
                         IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A
                         PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, OR
                         NON-INFRINGEMENT; AND (b) ANY WARRANTY ARISING OUT OF
-                        COURSE OF DEALING, USAGE, OR TRADE. PEARAI DOES NOT
+                        COURSE OF DEALING, USAGE, OR TRADE. starsofarAI DOES NOT
                         WARRANT THAT THE SERVICE OR ANY PORTION OF THE SERVICE,
                         OR ANY MATERIALS OR CONTENT OFFERED THROUGH THE SERVICE,
                         INCLUDING SUGGESTIONS, WILL BE UNINTERRUPTED, SECURE, OR
                         FREE OF ERRORS, VIRUSES, OR OTHER HARMFUL COMPONENTS,
-                        AND PEARAI DOES NOT WARRANT THAT ANY OF THOSE ISSUES
+                        AND starsofarAI DOES NOT WARRANT THAT ANY OF THOSE ISSUES
                         WILL BE CORRECTED.
                       </p>
                     </li>
@@ -563,10 +563,10 @@ export default function TermsOfServiceComponent() {
                     <li>
                       <p>
                         NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN,
-                        OBTAINED BY YOU FROM THE SERVICE OR PEARAI ENTITIES OR
+                        OBTAINED BY YOU FROM THE SERVICE OR starsofarAI ENTITIES OR
                         ANY MATERIALS OR CONTENT AVAILABLE THROUGH THE SERVICE,
                         INCLUDING SUGGESTIONS, WILL CREATE ANY WARRANTY
-                        REGARDING ANY OF THE PEARAI ENTITIES OR THE SERVICE THAT
+                        REGARDING ANY OF THE starsofarAI ENTITIES OR THE SERVICE THAT
                         IS NOT EXPRESSLY STATED IN THESE TERMS. WE ARE NOT
                         RESPONSIBLE FOR ANY DAMAGE THAT MAY RESULT FROM THE
                         SERVICE AND YOUR DEALING WITH ANY OTHER SERVICE USER.
@@ -583,8 +583,8 @@ export default function TermsOfServiceComponent() {
                       <p>
                         THE LIMITATIONS, EXCLUSIONS AND DISCLAIMERS IN THIS
                         SECTION 13 APPLY TO THE FULLEST EXTENT PERMITTED BY LAW.
-                        PearAI does not disclaim any warranty or other right
-                        that PearAI is prohibited from disclaiming under
+                        starsofarAI does not disclaim any warranty or other right
+                        that starsofarAI is prohibited from disclaiming under
                         applicable law.
                       </p>
                     </li>
@@ -602,7 +602,7 @@ export default function TermsOfServiceComponent() {
                     <li>
                       <p>
                         TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL
-                        THE PEARAI ENTITY BE LIABLE TO YOU FOR ANY INDIRECT,
+                        THE starsofarAI ENTITY BE LIABLE TO YOU FOR ANY INDIRECT,
                         INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES
                         (INCLUDING DAMAGES FOR LOSS OF PROFITS, GOODWILL, OR ANY
                         OTHER INTANGIBLE LOSS) ARISING OUT OF OR RELATING TO
@@ -611,7 +611,7 @@ export default function TermsOfServiceComponent() {
                         SERVICE, INCLUDING SUGGESTIONS, WHETHER BASED ON
                         WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE),
                         STATUTE, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT
-                        ANY PEARAI ENTITY HAS BEEN INFORMED OF THE POSSIBILITY
+                        ANY starsofarAI ENTITY HAS BEEN INFORMED OF THE POSSIBILITY
                         OF DAMAGE.
                       </p>
                     </li>
@@ -619,12 +619,12 @@ export default function TermsOfServiceComponent() {
                     <li>
                       <p>
                         TO THE FULLEST EXTENT PERMITTED BY LAW, THE AGGREGATE
-                        LIABILITY OF THE PEARAI ENTITIES TO YOU FOR ALL CLAIMS
+                        LIABILITY OF THE starsofarAI ENTITIES TO YOU FOR ALL CLAIMS
                         ARISING OUT OF OR RELATING TO THE USE OF OR ANY
                         INABILITY TO USE ANY PORTION OF THE SERVICE OR OTHERWISE
                         UNDER THESE TERMS, WHETHER IN CONTRACT, TORT, OR
                         OTHERWISE, IS LIMITED TO THE GREATER OF: (a) THE AMOUNT
-                        YOU HAVE PAID TO PEARAI FOR ACCESS TO AND USE OF THE
+                        YOU HAVE PAID TO starsofarAI FOR ACCESS TO AND USE OF THE
                         SERVICE IN THE 6 MONTHS PRIOR TO THE EVENT OR
                         CIRCUMSTANCE GIVING RISE TO THE CLAIM OR, IF GREATER,
                         (b) USD 100.
@@ -674,7 +674,7 @@ export default function TermsOfServiceComponent() {
                           Arbitration Agreement
                         </strong>
                         .” You agree that any and all disputes or claims that
-                        have arisen or may arise between you and PearAI, whether
+                        have arisen or may arise between you and starsofarAI, whether
                         arising out of or relating to these Terms (including any
                         alleged breach thereof), the Service, any advertising,
                         or any aspect of the relationship or transactions
@@ -687,7 +687,7 @@ export default function TermsOfServiceComponent() {
                         bringing issues to the attention of federal, state, or
                         local agencies, and such agencies can, if the law
                         allows, seek relief against us on your behalf. You agree
-                        that, by entering into these Terms, you and PearAI are
+                        that, by entering into these Terms, you and starsofarAI are
                         each waiving the right to a trial by jury or to
                         participate in a class action. Your rights will be
                         determined by a neutral arbitrator, not a judge or jury.
@@ -702,11 +702,11 @@ export default function TermsOfServiceComponent() {
                           Prohibition of Class and Representative Actions and
                           Non-Individualized Relief
                         </strong>
-                        . YOU AND PEARAI AGREE THAT EACH OF US MAY BRING CLAIMS
+                        . YOU AND starsofarAI AGREE THAT EACH OF US MAY BRING CLAIMS
                         AGAINST THE OTHER ONLY ON AN INDIVIDUAL BASIS AND NOT AS
                         A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR
                         REPRESENTATIVE ACTION OR PROCEEDING. UNLESS BOTH YOU AND
-                        PEARAI AGREE OTHERWISE, THE ARBITRATOR MAY NOT
+                        starsofarAI AGREE OTHERWISE, THE ARBITRATOR MAY NOT
                         CONSOLIDATE OR JOIN MORE THAN ONE PERSON’S OR PARTY’S
                         CLAIMS AND MAY NOT OTHERWISE PRESIDE OVER ANY FORM OF A
                         CONSOLIDATED, REPRESENTATIVE, OR CLASS PROCEEDING. ALSO,
@@ -726,7 +726,7 @@ export default function TermsOfServiceComponent() {
                         <strong className="text-gray-900">
                           Pre-Arbitration Dispute Resolution
                         </strong>
-                        . PearAI is always interested in resolving disputes
+                        . starsofarAI is always interested in resolving disputes
                         amicably and efficiently, and most customer concerns can
                         be resolved quickly and to the customer’s satisfaction
                         by emailing customer support at&nbsp;
@@ -740,19 +740,19 @@ export default function TermsOfServiceComponent() {
                         intends to seek arbitration must first send to the
                         other, by certified mail, a written Notice of Dispute (“
                         <strong className="text-gray-900">Notice</strong>
-                        ”). The Notice to PearAI should be sent to (“
+                        ”). The Notice to starsofarAI should be sent to (“
                         <strong className="text-gray-900">
                           Notice Address
                         </strong>
                         ”). The Notice must (i) describe the nature and basis of
                         the claim or dispute and (ii) set forth the specific
-                        relief sought. If PearAI and you do not resolve the
+                        relief sought. If starsofarAI and you do not resolve the
                         claim within sixty (60) calendar days after the Notice
-                        is received, you or PearAI may commence an arbitration
+                        is received, you or starsofarAI may commence an arbitration
                         proceeding. During the arbitration, the amount of any
-                        settlement offer made by PearAI or you will not be
+                        settlement offer made by starsofarAI or you will not be
                         disclosed to the arbitrator until after the arbitrator
-                        determines the amount, if any, to which you or PearAI is
+                        determines the amount, if any, to which you or starsofarAI is
                         entitled.
                       </p>
                     </li>
@@ -804,13 +804,13 @@ export default function TermsOfServiceComponent() {
                       </p>
 
                       <p>
-                        Unless PearAI and you agree otherwise, any arbitration
+                        Unless starsofarAI and you agree otherwise, any arbitration
                         hearings will take place in a reasonably convenient
                         location for both parties with due consideration of
                         their ability to travel and other pertinent
                         circumstances. If the parties are unable to agree on a
                         location, the determination will be made by AAA. If your
-                        claim is for $10,000 or less, PearAI agrees that you may
+                        claim is for $10,000 or less, starsofarAI agrees that you may
                         choose whether the arbitration will be conducted solely
                         on the basis of documents submitted to the arbitrator,
                         through a telephonic hearing, or by an in-person hearing
@@ -837,17 +837,17 @@ export default function TermsOfServiceComponent() {
                         ”) will be governed by the AAA Rules, unless otherwise
                         provided in this Arbitration Agreement. To the extent
                         any Arbitration Fees are not specifically allocated to
-                        either PearAI or you under the AAA Rules, PearAI and you
+                        either starsofarAI or you under the AAA Rules, starsofarAI and you
                         shall split them equally; provided that if you are able
                         to demonstrate to the arbitrator that you are
                         economically unable to pay your portion of such
                         Arbitration Fees or if the arbitrator otherwise
                         determines for any reason that you should not be
                         required to pay your portion of any Arbitration Fees,
-                        PearAI will pay your portion of such fees. In addition,
+                        starsofarAI will pay your portion of such fees. In addition,
                         if you demonstrate to the arbitrator that the costs of
                         arbitration will be prohibitive as compared to the costs
-                        of litigation, PearAI will pay as much of the
+                        of litigation, starsofarAI will pay as much of the
                         Arbitration Fees as the arbitrator deems necessary to
                         prevent the arbitration from being cost-prohibitive. Any
                         payment of attorneys’ fees will be governed by the AAA
@@ -897,11 +897,11 @@ export default function TermsOfServiceComponent() {
                           Future Changes to Arbitration Agreement
                         </strong>{" "}
                         Notwithstanding any provision in these Terms to the
-                        contrary, PearAI agrees that if it makes any future
+                        contrary, starsofarAI agrees that if it makes any future
                         change to this Arbitration Agreement (other than a
                         change to the Notice Address) while you are a user of
                         the Service, you may reject any such change by sending
-                        PearAI written notice within thirty (30) calendar days
+                        starsofarAI written notice within thirty (30) calendar days
                         of the change to the Notice Address provided above. By
                         rejecting any future change, you are agreeing that you
                         will arbitrate any dispute between us in accordance with
@@ -925,7 +925,7 @@ export default function TermsOfServiceComponent() {
                         . These Terms, including the Privacy Policy, and any
                         other agreements expressly incorporated by reference
                         into these Terms, are the entire and exclusive
-                        understanding and agreement between you and PearAI
+                        understanding and agreement between you and starsofarAI
                         regarding your use of the Service. You may not assign or
                         transfer these Terms or your rights under these Terms,
                         in whole or in part, by operation of law or otherwise,
@@ -958,7 +958,7 @@ export default function TermsOfServiceComponent() {
                         All disputes and claims arising from these Terms will be
                         governed in accordance with the arbitration provisions
                         set forth above in Section 15; provided that you and
-                        PearAI submit to the personal and exclusive jurisdiction
+                        starsofarAI submit to the personal and exclusive jurisdiction
                         of the state courts and federal courts located within
                         Santa Clara County, California for (a) individuals
                         claims brought in small claims court, (b) claims for
@@ -977,17 +977,17 @@ export default function TermsOfServiceComponent() {
                         <strong className="text-gray-900">
                           Privacy Policy
                         </strong>
-                        . Please read the PearAI Privacy Policy (available
+                        . Please read the starsofarAI Privacy Policy (available
                         at:&nbsp;
                         <Link
-                          href="https://trypear.ai/privacy"
+                          href="https://trystarsofar.ai/privacy"
                           className="font-medium text-gray-900 underline"
                         >
-                          https://trypear.ai/privacy
+                          https://trystarsofar.ai/privacy
                         </Link>
                         ) (the “Privacy Policy”) carefully for information
                         relating to our collection, use, storage, and disclosure
-                        of your personal information. The PearAI Privacy Policy
+                        of your personal information. The starsofarAI Privacy Policy
                         is incorporated by this reference into, and made a part
                         of, these Terms.
                       </p>
@@ -1015,7 +1015,7 @@ export default function TermsOfServiceComponent() {
                         <strong className="text-gray-900">
                           Contact Information
                         </strong>
-                        . The Service is offered by PearAI, Inc., located at 54
+                        . The Service is offered by starsofarAI, Inc., located at 54
                         State Street, Ste 804 Albany NY 12207. You may contact
                         us by sending correspondence to that address or by
                         emailing us at&nbsp;

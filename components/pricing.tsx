@@ -116,8 +116,8 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
       return (
         <div className="flex items-center">
           <span>
-            Monthly refill of PearAI Credits for market-leading AI models
-            <PearCreditsTooltip type="standard" />
+            Monthly refill of StarsOf Credits for market-leading AI models
+            <StarCreditsTooltip type="standard" />
           </span>
         </div>
       );
@@ -126,7 +126,7 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
         <div className="flex items-center">
           <span>
             Use our free trial, your own API key, or local models
-            <PearCreditsTooltip type="free" />
+            <StarCreditsTooltip type="free" />
           </span>
         </div>
       );
@@ -134,9 +134,9 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
       return (
         <div className="flex items-center">
           <span>
-            Monthly refill of increased PearAI Credits for market-leading AI
+            Monthly refill of increased StarsOf Credits for market-leading AI
             models
-            <PearCreditsTooltip type="enterprise" />
+            <StarCreditsTooltip type="enterprise" />
           </span>
         </div>
       );
@@ -186,7 +186,7 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
           <p className="text-base font-normal text-gray-600 sm:text-base md:text-sm">
             {index === 0 && isFree && (
               <>
-                You can download PearAI directly, and use our free trial, or
+                You can download StarsOf directly, and use our free trial, or
                 your own API key 🤓
               </>
             )}
@@ -260,7 +260,7 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
             isFree &&
             (downloadLink !== undefined ? (
               <p className="text-gray-400">
-                Thanks for trying out PearAI! Your download should have started,
+                Thanks for trying out StarsOf! Your download should have started,
                 if it hasn&apos;t, click{" "}
                 <a
                   className="cursor-pointer text-primary-700 transition-colors hover:text-primary-800"
@@ -299,7 +299,7 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
                   <Button
                     className={cn("rainbow-gradient", "font-bold", "flex-1")}
                     onClick={() =>
-                      (window.location.href = "/blog/download-pearai-on-linux")
+                      (window.location.href = "/blog/download-starsof-on-linux")
                     }
                   >
                     <LinuxLogo className="h-[18px] w-[18px] fill-white-main" />
@@ -545,10 +545,10 @@ const PricingPage: React.FC<PricingPageProps> = ({ user }) => {
 
 export default PricingPage;
 
-export const PearCreditsTooltip = ({ type }: { type: string }) => {
+export const StarCreditsTooltip = ({ type }: { type: string }) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
-  const pearCreditsCount = useMemo(() => {
+  const starCreditsCount = useMemo(() => {
     return (type: string) => {
       if (type === "free") {
         return "50";
@@ -572,8 +572,8 @@ export const PearCreditsTooltip = ({ type }: { type: string }) => {
           <p className="max-w-[250px]">
             Current models include Claude 3.5 Sonnet and GPT4o.
             <br /> <br />
-            Your PearAI Credits usage depend on your prompt input and output
-            sizes. On average, this equates to around {pearCreditsCount(
+            Your Starsof Credits usage depend on your prompt input and output
+            sizes. On average, this equates to around {starCreditsCount(
               type,
             )}{" "}
             requests{type === "free" && " for our current free trial"}.
@@ -589,7 +589,7 @@ export const PearCreditsTooltip = ({ type }: { type: string }) => {
                     toast.success("Email copied to clipboard!");
                   }}
                 >
-                  PearAI support
+                  StarsOf AR support
                 </a>{" "}
                 to top up and keep building!
               </>

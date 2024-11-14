@@ -141,7 +141,7 @@ export default function SubscriptionCard({
                     <strong>
                       {usage?.percent_credit_used != null
                         ? `${Math.min(usage.percent_credit_used, 100)}%`
-                        : "Cannot find remaining percentage. Please contact PearAI support."}
+                        : "Cannot find remaining percentage. Please contact StarsOf AR support."}
                     </strong>
                   )}
                 </p>
@@ -155,7 +155,7 @@ export default function SubscriptionCard({
                 <p className="text-sm text-muted-foreground">
                   {loading
                     ? "-"
-                    : `${Math.min(usage?.percent_credit_used ?? 0, 100)}% of PearAI Credits used`}
+                    : `${Math.min(usage?.percent_credit_used ?? 0, 100)}% of StarsOf AR Credits used`}
                 </p>
                 <p className="text-right text-sm text-muted-foreground">
                   Credits refill monthly
@@ -254,7 +254,7 @@ export default function SubscriptionCard({
                   href={DEFAULT_OPEN_APP_CALLBACK + "?" + openAppQueryParams}
                   target="_parent"
                 >
-                  Open PearAI
+                  Open StarsOf AR
                 </Link>
               </Button>
             </div>
@@ -305,7 +305,7 @@ export default function SubscriptionCard({
           <div className="flex items-center">
             <Info className="inline text-muted-foreground" size={14} />
             <p className="ml-1.5 text-xs/6 text-muted-foreground">
-              Make sure PearAI is{" "}
+              Make sure StarsOf AR is{" "}
               <Button
                 variant="link"
                 asChild

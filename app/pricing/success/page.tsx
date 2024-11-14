@@ -5,7 +5,7 @@ import PricingSuccess from "@/components/pricing-success";
 
 export const metadata: Metadata = constructMetadata({
   title: "Pricing success",
-  description: "The pricing success page for PearAI.",
+  description: "The pricing success page for StarsOf AR.",
   canonical: "/pricing/success",
 });
 

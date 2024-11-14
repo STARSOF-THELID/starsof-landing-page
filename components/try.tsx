@@ -2,20 +2,20 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 
-export default function TryPear() {
+export default function TryStarsOf() {
   return (
     <section>
       <div className="relative mx-auto max-w-6xl px-4 pt-40 sm:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="mb-4 text-4xl font-semibold" data-aos="fade-up">
-            Interested in contributing to PearAI?
+            Interested in contributing to StarsOf AR?
           </h1>
           <p
             className="mb-4 text-sm text-gray-500 sm:text-lg"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Pear is built by a large community of developers. If you have
+            StarsOf AR is built by a large community of developers. If you have
             questions, or would like to discuss, you can join our{" "}
             <Link
               href="https://discord.gg/7QMraJUsQt"
@@ -34,7 +34,7 @@ export default function TryPear() {
           >
             Help the community out by giving{" "}
             <Link
-              href="https://github.com/trypear/pearai-app"
+              href="https://github.com/STARSOF-THELID/starsof-landing-page"
               className="font-medium text-primary-700 hover:text-primary-800"
               target="_blank"
               rel="noopener noreferrer"

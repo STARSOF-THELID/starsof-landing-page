@@ -37,7 +37,7 @@ export default function FreeTrialCard({
         <CardContent>
           <div className="mb-4">
             <div className="flex justify-between">
-              <p className="font-medium">PearAI Credits</p>
+              <p className="font-medium">StarsOf AR Credits</p>
               <p className="text-sm text-muted-foreground">
                 <strong>
                   {loading ? (
@@ -46,7 +46,7 @@ export default function FreeTrialCard({
                     <strong>
                       {usage?.percent_credit_used != null
                         ? `${Math.min(usage.percent_credit_used, 100)}%`
-                        : "Cannot find used percentage. Please contact PearAI support."}
+                        : "Cannot find used percentage. Please contact StarsOf AR support."}
                     </strong>
                   )}
                 </strong>
@@ -60,7 +60,7 @@ export default function FreeTrialCard({
             <div className="flex justify-between">
               <p className="text-sm text-muted-foreground">
                 {loading ? "-" : Math.min(usage?.percent_credit_used ?? 0, 100)}
-                % of free trial PearAI Credits used
+                % of free trial StarsOf AR Credits used
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function FreeTrialCard({
                   href={DEFAULT_OPEN_APP_CALLBACK + "?" + openAppQueryParams}
                   target="_parent"
                 >
-                  Open PearAI
+                  Open StarsOf AR
                 </Link>
               </Button>
             </div>
@@ -88,7 +88,7 @@ export default function FreeTrialCard({
           <div className="mt-1 flex items-center">
             <Info className="inline text-muted-foreground" size={14} />
             <p className="ml-1.5 text-xs/3 text-muted-foreground">
-              Make sure PearAI is{" "}
+              Make sure StarsOf AR is{" "}
               <Button
                 variant="link"
                 asChild

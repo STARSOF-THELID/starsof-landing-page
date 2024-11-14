@@ -30,15 +30,12 @@ export const constructMetadata = ({
   ogImage = "/images/og-image.png",
 }: MetadataProps) => {
   return {
-    metadataBase: new URL("https://trypear.ai/"),
-    title: title ? `${title} - PearAI` : defaultMetadata.title,
+    metadataBase: new URL("https://starsof-landing-page.vercel.app/"),
+    title: title ? `${title} - STARSOF` : defaultMetadata.title,
     description,
     keywords: [
-      "code editor",
-      "ai code editor",
-      "ai",
-      "pearai",
-      "open source code editor",
+      "map-based social networking",
+      "starsof",
     ],
     alternates: {
       canonical,
@@ -75,8 +72,8 @@ export const constructMetadata = ({
     // twitter: {
     //   title,
     //   description,
-    //   creator: "@trypearai",
-    //   site: "trypear.ai",
+    //   creator: "@zzz",
+    //   site: "zzz",
     //   card: "summary_large_image",
     // },
   };

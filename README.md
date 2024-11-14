@@ -2,18 +2,18 @@
 
 <div align="center">
   <div align="center">
-    <img src="components/ui/PearHeroLogo.svg" alt="PearAI Logo" />
-  </div>
+<!--     <img src="components/ui/PearHeroLogo.svg" alt="STARSOFAR Logo" />
+ -->  </div>
   <h3 align="center">STARSOF THELID Landing Page</h3>
   <p align="center">
     AR shit
     <br />
-    <a href="https://trypear.ai"><strong>Explore the Website »</strong></a>
+    <a href="https://starsof-landing-page.vercel.app/"><strong>Explore the Website »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/trypear/pear-landing-page/issues">Report Bug</a>
+    <a href="https://github.com/STARSOF-THELID/starsof-landing-page/issues">Report Bug</a>
     ·
-    <a href="https://github.com/trypear/pear-landing-page/issues">Request Feature</a>
+    <a href="https://github.com/STARSOF-THELID/starsof-landing-page/issues">Request Feature</a>
   </p>
 </div>
 
@@ -34,7 +34,7 @@
 
 ## About The Project
 
-This is the landing page for [PearAI:](https://trypear.ai) the Open Source AI-powered code editor. This product is managed by [Nang](https://youtube.com/nang88) and [Pan](https://youtube.com/FryingPan).
+This is the landing page for [STARSOF AR:](https://starsof-landing-page.vercel.app/) the Open Source AI-powered code editor.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

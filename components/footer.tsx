@@ -1,6 +1,6 @@
 import { footerSections, socialMediaLinks } from "@/utils/constants";
 import Link from "next/link";
-import PearDarkLogo from "./ui/PearDark.svg";
+import StarsDarkLogo from "./ui/PearDark.svg";
 import { Button } from "./ui/button";
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Logo and tagline */}
         <div className="col-span-full mb-2 sm:mb-8 xl:col-span-2 xl:mb-0">
           <Link className="-ml-1 inline-block dark:invert" href="/">
-            <PearDarkLogo />
+            {/* <StarsDarkLogo /> */}
           </Link>
           <p className="mt-5 text-sm leading-[1.75] text-neutral-500 dark:text-neutral-400">
             Speed up your development process by seamlessly integrating AI into
@@ -73,7 +73,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <span className="text-sm">
-          &copy; {new Date().getFullYear()} PearAI - All rights reserved.
+          &copy; {new Date().getFullYear()} StarsOf AR - All rights reserved.
         </span>
       </div>
     </footer>

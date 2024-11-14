@@ -19,7 +19,7 @@ export default function PricingSuccess() {
           {/* Page header */}
           <div className="md:pb-15 mx-auto max-w-3xl pb-10 text-center text-2xl md:text-3xl lg:text-4xl">
             <h1 className="h1 leading-tight">
-              Thank you for subscribing to PearAI!
+              Thank you for subscribing to StarsOf AR!
             </h1>
           </div>
           <div className="mx-auto max-w-xl">
@@ -29,7 +29,7 @@ export default function PricingSuccess() {
                 aria-hidden="true"
               ></div>
               <div className="text-center text-gray-700">
-                We hope you enjoy using Pear. Feel free to send any suggestions
+                We hope you enjoy using Stars. Feel free to send any suggestions
                 our way at{" "}
                 <Link
                   href={`mailto:{CONTACT_EMAIL}`}

@@ -54,10 +54,10 @@ const updates: ChangelogEntry[] = [
               /v0
             </span>{" "}
             create a <span className="font-mono">v0</span> component link
-            directly from pearai
+            directly from StarsOf
           </li>
           <li className="">Auto Updating for Mac 📦</li>
-          <li className="">PearAI Theme</li>
+          <li className="">StarsOf Theme</li>
         </ul>
 
         <h2 className="mt-6 text-xl font-semibold">Improvements</h2>
@@ -76,7 +76,7 @@ const updates: ChangelogEntry[] = [
             slash command, it will help you learn by guiding like a interviewer
           </li>
           <li className="">Preserve extension state on import from vscode</li>
-          <li className="">Default PearAI Themes</li>
+          <li className="">Default StarsOf Themes</li>
         </ul>
       </>
     ),
@@ -100,7 +100,7 @@ const updates: ChangelogEntry[] = [
         </ul>
         <Image
           src="/images/changelogs/includeFile - v0.0.1.png"
-          alt="PearAI v1.0.0 Dashboard"
+          alt="StarsOf v1.0.0 Dashboard"
           width={800}
           height={0}
           sizes="100vw"

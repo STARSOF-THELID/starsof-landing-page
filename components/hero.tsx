@@ -2,31 +2,31 @@
 
 import { useTheme } from "next-themes";
 import Link from "next/link";
-import PearHeroLogo from "@/components/ui/PearHeroLogo.svg";
-import PearDarkHeroLogo from "@/components/ui/PearDarkHeroLogo.svg";
+// import StarsHeroLogo from "@/components/ui/PearHeroLogo.svg";
+// import StarsDarkHeroLogo from "@/components/ui/PearDarkHeroLogo.svg";
 import { Button } from "@/components/ui/button";
 import { YCombinatorLogo } from "@/components/ui/icons";
 
 const HeroTitle = ({ theme }: { theme: string }) => (
   <>
     <div className="hidden items-start sm:inline-block">
-      {theme === "dark" ? (
-        <PearDarkHeroLogo
+      {/* {theme === "dark" ? (
+        <StarsDarkHeroLogo
           width="26"
-          alt="PearAI Logo"
+          alt="StarsOf AR Logo"
           className="mb-4 mr-2 inline-flex"
         />
       ) : (
-        <PearHeroLogo
+        <StarsHeroLogo
           width="26"
-          alt="PearAI Logo"
+          alt="StarsOf AR Logo"
           className="mb-4 mr-2 inline-flex"
         />
-      )}
+      )} */}
       <span className="text-primary-700">STARSOF THELID</span>
-      <br></br>A map-based hookup app
+      <br></br>A map-based XXXXXX app
       <br></br>
-      for BDSM
+      for XXX
     </div>
     <div
       className={
@@ -34,7 +34,7 @@ const HeroTitle = ({ theme }: { theme: string }) => (
       }
     >
       <h1 className="text-4xl font-bold">
-        Kink-lifestyle future to{" "}
+XXXXXXXX future to{" "}
         <span className="relative">
           <span className="relative z-10 text-primary-600">end </span>
           <span
@@ -45,7 +45,7 @@ const HeroTitle = ({ theme }: { theme: string }) => (
             }}
           ></span>
         </span>
-        pornography.
+        XXX.
       </h1>
       {/*         <p className="mt-4 max-w-2xl text-center text-gray-500">
           Lorem Ipsum.
@@ -54,20 +54,20 @@ const HeroTitle = ({ theme }: { theme: string }) => (
 
     <div className="block items-start sm:hidden">
       <div>
-        {theme === "dark" ? (
-          <PearDarkHeroLogo
+        {/* {theme === "dark" ? (
+          <StarsDarkHeroLogo
             width="20"
-            alt="PearAI Logo"
+            alt="StarsOf AR Logo"
             className="mb-3 mr-2 inline-flex"
           />
         ) : (
-          <PearHeroLogo
+          <StarsHeroLogo
             width="20"
-            alt="PearAI Logo"
+            alt="StarsOf AR Logo"
             className="mb-3 mr-2 inline-flex"
           />
-        )}
-        <span className="text-primary-700">PearAI </span>
+        )} */}
+        <span className="text-primary-700">StarsOf AR </span>
       </div>
       <span className="flex flex-col text-3xl">
         <span>The Open Source</span> <span>AI&#8209;Powered Code Editor</span>
@@ -90,8 +90,6 @@ const HeroDescription = () => (
       data-aos="fade-up"
       data-aos-delay="200"
     >
-      Afraid of switching editors? No need, PearAI is a fork of VSCode and
-      Continue so you&apos;ll feel right at home 😏
     </p>
   </div>
 );

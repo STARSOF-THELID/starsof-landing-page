@@ -6,7 +6,7 @@ async function downloadFile(request: NextRequest) {
   try {
     const os_type = request.nextUrl.searchParams.get("os_type");
     const res = await fetch(
-      `${process.env.PEARAI_SERVER_URL}/download?os_type=${os_type}`,
+      `${process.env.STARSOF_SERVER_URL}/download?os_type=${os_type}`,
       {
         method: "GET",
         headers: {

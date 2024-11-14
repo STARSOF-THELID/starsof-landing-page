@@ -5,7 +5,7 @@ import { type CookieOptions, createServerClient } from "@supabase/ssr";
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
-  // if callback in param, means we should redirect to desktop pearai app instead and ignore "next"
+  // if callback in param, means we should redirect to desktop starsof app instead and ignore "next"
   const callback = searchParams.get("callback");
   // if "next" is in param, use it as the redirect URL
   const next = searchParams.get("next") ?? "/dashboard";

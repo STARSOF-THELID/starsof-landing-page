@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next/types";
 
-const BASE_URL = "https://trypear.ai";
+const BASE_URL = "https://starsof-landing-page.vercel.app/";
 
 const pages: Array<{
   route: string;

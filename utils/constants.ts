@@ -10,7 +10,7 @@ export const TEST_MODE_ENABLED = ["true", "True", "TRUE"].includes(
   process.env.NEXT_PUBLIC_TEST_MODE_ENABLED ?? "",
 );
 
-export const CONTACT_EMAIL = "pear@trypear.ai";
+export const CONTACT_EMAIL = "rykr.inquiry@gmail.com";
 
 const NEXT_PUBLIC_STRIPE_WAITLIST_PRICE_ID = "price_1PZ9X608N4O93LU5yqMbGDtu";
 const NEXT_PUBLIC_STRIPE_WAITLIST_PRICE_ID_TEST =
@@ -43,7 +43,7 @@ export const PRICING_TIERS: {
       title: "Intern",
       price: "0",
       description:
-        "You can download PearAI directly, and use our free trial, or your own API key 🤓",
+        "You can download StarsOf AR for free, or buy a subscription, or your own API key 🤓",
       isFree: true,
       index: 0,
       features: ["free", "Community Discord server"],
@@ -160,7 +160,7 @@ export const footerSections = [
       },
       {
         text: "Email",
-        href: "mailto:pear@trypear.ai",
+        href: "mailto:rykr.inquiry@gmail.com",
       },
       {
         text: "Discord",
@@ -174,18 +174,18 @@ export const footerSections = [
 export const socialMediaLinks = [
   {
     icon: GitHubLogo,
-    link: "https://github.com/trypear/pearai-app",
+    link: "https://github.com/STARSOF-THELID/starsof-landing-page",
   },
   {
     icon: DiscordLogo,
-    link: "https://discord.gg/AKy5FmqCkF",
+    link: "https://discord.gg/",
   },
   {
     icon: TwitterLogo,
-    link: "https://x.com/trypearai",
+    link: "https://x.com/xerkdot",
   },
   {
     icon: LinkedInLogo,
-    link: "https://www.linkedin.com/company/trypearai",
+    link: "https://www.linkedin.com/company/starsof-thelid",
   },
 ];
