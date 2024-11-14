@@ -260,8 +260,8 @@ const PricingTier: React.FC<ExtendedPricingTierProps> = ({
             isFree &&
             (downloadLink !== undefined ? (
               <p className="text-gray-400">
-                Thanks for trying out StarsOf! Your download should have started,
-                if it hasn&apos;t, click{" "}
+                Thanks for trying out StarsOf! Your download should have
+                started, if it hasn&apos;t, click{" "}
                 <a
                   className="cursor-pointer text-primary-700 transition-colors hover:text-primary-800"
                   href={downloadLink}

@@ -11,7 +11,7 @@ export const metadata: Metadata = constructMetadata({
 });
 
 export default function Blog() {
-/*   const sortedPosts = posts.sort((a, b) =>
+  /*   const sortedPosts = posts.sort((a, b) =>
     compareDesc(new Date(a.date), new Date(b.date)),
   ); */
 
@@ -20,7 +20,7 @@ export default function Blog() {
       <h1 className="mb-10 text-center text-4xl font-semibold">Blog</h1>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-{/*         {sortedPosts.map((post, idx) => (
+        {/*         {sortedPosts.map((post, idx) => (
           <PostCard key={idx} {...post} />
         ))} */}
       </div>

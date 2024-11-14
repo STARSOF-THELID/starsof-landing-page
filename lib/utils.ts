@@ -33,10 +33,7 @@ export const constructMetadata = ({
     metadataBase: new URL("https://starsof-landing-page.vercel.app/"),
     title: title ? `${title} - STARSOF` : defaultMetadata.title,
     description,
-    keywords: [
-      "map-based social networking",
-      "starsof",
-    ],
+    keywords: ["map-based social networking", "starsof"],
     alternates: {
       canonical,
     },

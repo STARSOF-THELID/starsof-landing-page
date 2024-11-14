@@ -34,7 +34,7 @@ const HeroTitle = ({ theme }: { theme: string }) => (
       }
     >
       <h1 className="text-4xl font-bold">
-XXXXXXXX future to{" "}
+        XXXXXXXX future to{" "}
         <span className="relative">
           <span className="relative z-10 text-primary-600">end </span>
           <span
@@ -89,8 +89,7 @@ const HeroDescription = () => (
       className="mb-4 text-sm text-gray-500 sm:text-lg"
       data-aos="fade-up"
       data-aos-delay="200"
-    >
-    </p>
+    ></p>
   </div>
 );
 const HeroButtons = () => {
