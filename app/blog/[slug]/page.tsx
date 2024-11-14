@@ -1,11 +1,5 @@
 const PostLayout = ({ params }: { params: { slug: string } }) => {
-
-
-  return (
-    <>
-      
-    </>
-  );
+  return <></>;
 };
 
 export default PostLayout;
