@@ -17,13 +17,13 @@ export default function Features() {
     {
       header: "Find people near you.",
       description: <></>,
-      videoSource: "/webms/talktocodebase.webm",
+      videoSource: "",
     },
 
     {
       header: "No more tedious changes.",
       description: <></>,
-      videoSource: "/webms/cmd+i-landingpage.webm",
+      videoSource: "",
     },
 
     {
@@ -33,7 +33,7 @@ export default function Features() {
           <p className="pb-6"></p>
         </>
       ),
-      embedId: "v4NN_qadBS0",
+      embedId: "",
     },
   ];
 

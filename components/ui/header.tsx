@@ -127,7 +127,7 @@ export default async function Header() {
                         </ul>
                       </DropdownNavItem>
                       <NavItem href="/pricing">Pricing / Download</NavItem>
-                      <NavItem href="/docs">Documentation</NavItem>
+                      <NavItem href="/">Documentation</NavItem>
                       <NavItem
                         href="https://github.com/STARSOF-THELID/starsof-landing-page"
                         target="_blank"
